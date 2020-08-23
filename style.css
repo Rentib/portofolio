@@ -280,11 +280,6 @@ form{
 .message{
 	height: 200px;
 }
-@media screen and (max-width: 768px){
-.message {
-height: 100px;
-}
-}
 input[type = submit]{
 	margin: 0 auto;
 	width: 200px;
@@ -294,6 +289,14 @@ input[type = submit]{
 input[type = submit]:hover{
 	-webkit-animation: neonborder 1.5s linear infinite alternate;
 	-webkit-animation: neon 1.5s linear infinite alternate;
+}
+@media screen and (max-width: 768px){
+.message {
+height: 100px;
+}
+input[type = submit]{
+width:80px;
+}
 }
 /*------------------------------------------------------------------------------------*/
 /*top button*/
