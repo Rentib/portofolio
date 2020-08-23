@@ -285,8 +285,10 @@ form{
 	margin: 10px;
 	border: none;
 	background: none;
-	border: none;
+	border-top: none;
+	border-right: none;
 	border-bottom: 1px solid transparent;
+	border-left: none;
     border-image-source: linear-gradient(to left, #000000 0%, #39ff14 100%); 
     border-image-slice: 5;
 }
