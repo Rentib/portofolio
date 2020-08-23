@@ -286,7 +286,7 @@ form{
 	border: none;
 	background: none;
 	border-bottom: 1px solid transparent;
-    border-image-source: linear-gradient(to left, #151617, #39ff14); 
+    border-image-source: linear-gradient(to left, #000000, #39ff14); 
     border-image-slice: 5;
 }
 .message{
