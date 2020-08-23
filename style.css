@@ -347,9 +347,6 @@ input[type = submit]:hover{
 .topButton:hover{
 	-webkit-animation: neonborder 1.5s linear infinite alternate;
 }
-html.no-touch .topButton:hover{
-	-webkit-animation: neonborder 1.5s linear infinite alternate;
-}
 @-webkit-keyframes neonborder{
 	from{
 		box-shadow: 0.3px 0.3px #3afa16, 0.3px 0px #3eff19, 0px 0.3px #3afa16, -0.3px -0.3px #3eff19, -0.3px 0px #3afa16, 0px -0.3px #3eff19;
