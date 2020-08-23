@@ -280,6 +280,11 @@ form{
 .message{
 	height: 200px;
 }
+@media screen and (max-width: 768px){
+.message {
+height: 100px;
+}
+}
 input[type = submit]{
 	margin: 0 auto;
 	width: 200px;
