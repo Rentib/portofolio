@@ -246,6 +246,7 @@ section{
 	align-items: center;
 	justify-content: center;
 }
+#sProjects h1{font-size: 1.5em;}
 /*------------------------------------------------------------------------------------*/
 /*sContact*/
 #sContact{
