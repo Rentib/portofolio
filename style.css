@@ -251,21 +251,35 @@ section{
 #sContact{
 	height: 70vh;
 }
-.container{
+#sContact .container{
 	margin: auto;
 	display: flex;
-	align-items: center;
 	flex-direction: column;
-	width: 60%;
+	width: 70%;
+	align-items: center;
 }
-.container .heading h1{
+#sContact .container .heading{
+	width: 100%;
+}
+#sContact .container .heading h1{
+	font-size: 2em;
 	letter-spacing: 2px;
+}
+@media screen and(max-width: 1024px){
+	#sContact .container .heading h1{
+		font-size: 1.6em;
+		letter-spacing: 2px;
+	}
+}
+#sContact .container .heading h6{
+	font-size: .9em;
+	letter-spacing: 2px;
+	margin: 0 0 10px 0;
 }
 form{
 	display: flex;
 	flex-direction: column;
-	margin: 3em auto;
-	width: 40%;
+	width: 100%;
 }
 .name, .email, .message{
 	margin: 10px;
@@ -356,12 +370,17 @@ input[type = submit]:hover{
 }
 @media screen and (max-width: 1024px){
 	.footbar{
-		font-size: 0.8em;
+		font-size: 0.9em;
 	}
 }
 @media screen and (max-width: 768px){
 	.footbar{
-		font-size: 0.7em;
+		font-size: 0.8em;
+	}
+}
+@media screen and (max-width: 600px){
+	.footbar{
+		font-size: 0.6em;
 	}
 }
 .footbar div a{
