@@ -285,12 +285,9 @@ form{
 	margin: 10px;
 	border: none;
 	background: none;
-	border-top: transparent;
-	border-right: transparent;
 	border-bottom: 1px solid transparent;
-	border-left: transparent;
-    border-image-source: linear-gradient(to left, #000000 0%, #39ff14 100%); 
-    border-image-slice: 5;
+    	border-image-source: linear-gradient(to left, #000000 0%, #39ff14 100%); 
+    	border-image-slice: 5;
 }
 .message{
 	height: 200px;
