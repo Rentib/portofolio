@@ -204,14 +204,14 @@ section{
 /*------------------------------------------------------------------------------------*/
 /*about section*/
 #sAbout{
-	height: 60vh;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	flex-direction: column;
 }
 #sAbout p{
-	width: 90%;
-	margin: auto;
+	width: 70%;
+	margin: auto auto 0 auto;
 	font-size: 1.3em;
 }
 @media screen and (max-width: 1024px){
@@ -224,18 +224,70 @@ section{
 		font-size: 0.9em;
 	}
 }
+.photo-container{
+	margin: auto;
+	width: 70%;
+	/*border: 2px solid white;*/
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.photo-container div{
+	width: 20vw;
+	height: 50vh;
+	/*border: 1px solid #39ff14;*/
+}
 /*------------------------------------------------------------------------------------*/
 /*sProjects*/
 #sProjects{
-	height: 70vh;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 /*------------------------------------------------------------------------------------*/
 /*sContact*/
 #sContact{
 	height: 70vh;
+}
+.container{
+	margin: auto;
 	display: flex;
-	justify-content: space-around;
 	align-items: center;
+	flex-direction: column;
+	width: 60%;
+}
+.container .heading h1{
+	letter-spacing: 2px;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	margin: 3em auto;
+	width: 40%;
+}
+.name, .email, .message{
+	margin: 10px;
+	border: none;
+	background: none;
+	border: none;
+	border-bottom: 1px solid transparent;
+    border-image-source: linear-gradient(to left, #000000 0%, #39ff14 100%); 
+    border-image-slice: 5;
+}
+.message{
+	height: 200px;
+}
+input[type = submit]{
+	margin: 0 auto;
+	width: 200px;
+	background: none;
+	border: 1px solid #39ff14;
+}
+input[type = submit]:hover{
+	-webkit-animation: neonborder 1.5s linear infinite alternate;
+	-webkit-animation: neon 1.5s linear infinite alternate;
 }
 /*------------------------------------------------------------------------------------*/
 /*top button*/
