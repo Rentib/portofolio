@@ -256,7 +256,12 @@ section{
 /*------------------------------------------------------------------------------------*/
 /*sContact*/
 #sContact{
-	height: max(70vh, 70vw);
+	height: 70vh;
+}
+@media screen and (max-height: 640px){
+	#sContact{
+		height: max(70vh, 70vw);
+	}
 }
 #sContact .container{
 	margin: auto;
@@ -319,6 +324,7 @@ form{
     border-image-source: linear-gradient(to left, rgba(0, 0, 0, 0), #39ff14); 
     border-image-repeat: none;
     border-image-slice: 5;
+    outline: transparent;
 }
 .message{
 	height: 200px;
