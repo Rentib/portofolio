@@ -256,7 +256,7 @@ section{
 /*------------------------------------------------------------------------------------*/
 /*sContact*/
 #sContact{
-	height: 70vh;
+	height: max(70vh, 70vw);
 }
 #sContact .container{
 	margin: auto;
