@@ -291,10 +291,10 @@ form{
 	margin: 10px;
 	background: none;
     border-image-source: linear-gradient(to left, rgba(0, 0, 0, 0), #39ff14); 
-    border-top: none;
-    border-right: none;
+    border-top: 0px solid transparent;
+    border-right: 0px solid transparent;
     border-bottom: 1px solid transparent;
-    border-left: none;
+    border-left: 0px solid transparent;
     border-image-slice: 5;
 }
 .message{
