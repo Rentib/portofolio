@@ -278,18 +278,6 @@ section{
 	font-size: 2em;
 	letter-spacing: 2px;
 }
-@media screen and (max-width: 1024px){
-	#sContact .container .heading h1{
-		font-size: 1.6em;
-		letter-spacing: 2px;
-	}
-}
-@media screen and (max-height: 768px){
-	#sContact .container .heading h1{
-		font-size: 1.3em;
-		letter-spacing: 1px;
-	}
-}
 @media screen and (max-height: 640px){
 	#sContact .container .heading h1{
 		font-size: 1.0em;
@@ -301,11 +289,19 @@ section{
 	margin: 0 0 10px 0;
 }
 @media screen and (max-width: 1024px){
+	#sContact .container .heading h1{
+		font-size: 1.6em;
+		letter-spacing: 2px;
+	}
 	#sContact .container .heading h6{
 		font-size: .8em;
 	}
 }
 @media screen and (max-width: 768px){
+	#sContact .container .heading h1{
+		font-size: 1.3em;
+		letter-spacing: 1px;
+	}
 	#sContact .container .heading h6{
 		font-size: .8em;
 		letter-spacing: 2px;
@@ -329,14 +325,6 @@ form{
 .message{
 	height: 200px;
 }
-@media screen and (max-width: 768px){
-	.name, .email, .message{
-		margin: 7px;
-	}
-	.message{
-		height: 130px;
-	}
-}
 input[type = submit]{
 	margin: 0 auto;
 	width: 200px;
@@ -350,6 +338,9 @@ input[type = submit]{
 	}
 }
 @media screen and (max-width: 1024px){
+	#sContact label{
+		font-size: 1.1em;
+	}
 	.message{
 		height: 180px;
 	}
@@ -358,8 +349,14 @@ input[type = submit]{
 	}
 }
 @media screen and (max-width: 768px){
+	#sContact label{
+		font-size: 0.9em;
+	}
+	.name, .email, .message{
+		margin: 7px;
+	}
 	.message{
-		height: 140px;
+		height: 130px;
 	}
 	input[type = submit]{
 		width: 80px;
