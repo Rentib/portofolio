@@ -38,20 +38,22 @@ const navSlide = () => {
 navSlide();
 /*------------------------------------------------------------------------------------------------------*/
 const topButton = () => {
+	var k = 0;
 	const btn = document.querySelector(".topButton");
   	btn.addEventListener('click', () => window.scrollTo({
     	top: 0,
     	behavior: 'smooth',
   	}));
+  	btn.addEventListener('click', event =>{
+  		k = 1;
+  		btn.classList.toggle('topButton-active');
+  	});
+  	btn.addEventListener('touchend', event =>{
+  		if(k == 1){
+  			btn.classList.toggle('topButton-active');
+  		}
+  		k = 0;
+  	})
 }
 topButton();
-/*------------------------------------------------------------------------------------------------------*/
-const scrollFunction = () => {
-	const btn = document.querySelector(".topButton");
-  	btn.addEventListener('click', () => window.scrollTo({
-    	top: 0,
-    	behavior: 'smooth',
-  	}));
-}
-scrollFunction();
 /*------------------------------------------------------------------------------------------------------*/
