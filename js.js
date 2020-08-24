@@ -44,16 +44,6 @@ const topButton = () => {
     	top: 0,
     	behavior: 'smooth',
   	}));
-  	btn.addEventListener('click', event =>{
-  		k = 1;
-  		btn.classList.toggle('topButton-active');
-  	});
-  	btn.addEventListener('touchend', event =>{
-  		if(k == 1){
-  			btn.classList.toggle('topButton-active');
-  		}
-  		k = 0;
-  	})
 }
 topButton();
 /*------------------------------------------------------------------------------------------------------*/
