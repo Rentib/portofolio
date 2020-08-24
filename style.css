@@ -290,11 +290,11 @@ form{
 .name, .email, .message{
 	margin: 10px;
 	background: none;
+	border-top: 0px solid transparent;
+	border-right: 0px solid transparent;
+	border-bottom: 1px solid transparent;
+	border-left: 0px solid transparent;
     border-image-source: linear-gradient(to left, rgba(0, 0, 0, 0), #39ff14); 
-    border-top: 0px solid transparent;
-    border-right: 0px solid transparent;
-    border-bottom: 1px solid transparent;
-    border-left: 0px solid transparent;
     border-image-slice: 5;
 }
 .message{
