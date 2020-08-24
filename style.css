@@ -276,11 +276,6 @@ section{
 #sContact{
 	height: 70vh;
 }
-@media screen and (max-height: 640px){
-	#sContact{
-		height: max(70vh, 70vw);
-	}
-}
 #sContact .container{
 	margin: auto;
 	display: flex;
@@ -380,7 +375,14 @@ input[type = submit]{
 		width: 80px;
 	}
 }
-
+@media screen and (max-height: 640px){
+	#sContact{
+		height: max(70vh, 50vw);
+	}
+	.message{
+		height: 100px;
+	}
+}
 /*------------------------------------------------------------------------------------*/
 /*top button*/
 .topButton{
