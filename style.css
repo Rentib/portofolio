@@ -41,8 +41,10 @@ html{
 		letter-spacing: 3px;
 	}
 }
-.logo:hover{
-	-webkit-animation: neon 1.5s ease-in-out infinite alternate;
+@media (hover: hover){
+	.logo:hover{
+		-webkit-animation: neon 1.5s ease-in-out infinite alternate;
+	}
 }
 .nav-links{
 	display: flex;
@@ -64,8 +66,10 @@ html{
 		letter-spacing: 1.5px;
 	}
 }
-.link:hover{
-	-webkit-animation: neon 1.5s ease-in-out infinite alternate;
+@media (hover: hover){
+	.link:hover{
+		-webkit-animation: neon 1.5s ease-in-out infinite alternate;
+	}
 }
 @-webkit-keyframes neon {
 	from{
