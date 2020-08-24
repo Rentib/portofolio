@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 	color: #39ff14;
 	font-family: monaco, Consolas, Lucida Console, monospace;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	-webkit-overflow-scrolling: touch;
 }
 html{
@@ -177,10 +177,11 @@ section{
 }
 @media screen and (min-width: 1024px){
 	.type-text{
+		letter-spacing: 1px;
 		white-space: nowrap;
 	    border-right: 4px solid white;
 	    box-sizing: border-box;
-	    animation: typing 7s steps(79, end), blink .75s step-end infinite;
+	    animation: typing 10s steps(79, end), blink .75s step-end infinite;
 	}
 }
 @media screen and (max-width: 768px){
@@ -266,21 +267,44 @@ section{
 }
 #sContact .container .heading{
 	width: 100%;
+	margin-bottom: 15px;
 }
 #sContact .container .heading h1{
 	font-size: 2em;
 	letter-spacing: 2px;
 }
-@media screen and(max-width: 1024px){
+@media screen and (max-width: 1024px){
 	#sContact .container .heading h1{
 		font-size: 1.6em;
 		letter-spacing: 2px;
+	}
+}
+@media screen and (max-height: 768px){
+	#sContact .container .heading h1{
+		font-size: 1.3em;
+		letter-spacing: 1px;
+	}
+}
+@media screen and (max-height: 640px){
+	#sContact .container .heading h1{
+		font-size: 1.0em;
 	}
 }
 #sContact .container .heading h6{
 	font-size: .9em;
 	letter-spacing: 2px;
 	margin: 0 0 10px 0;
+}
+@media screen and (max-width: 1024px){
+	#sContact .container .heading h6{
+		font-size: .8em;
+	}
+}
+@media screen and (max-width: 768px){
+	#sContact .container .heading h6{
+		font-size: .8em;
+		letter-spacing: 2px;
+	}
 }
 form{
 	display: flex;
@@ -298,6 +322,14 @@ form{
 }
 .message{
 	height: 200px;
+}
+@media screen and (max-width: 768px){
+	.name, .email, .message{
+		margin: 7px;
+	}
+	.message{
+		height: 130px;
+	}
 }
 input[type = submit]{
 	margin: 0 auto;
@@ -389,7 +421,7 @@ input[type = submit]{
 		font-size: 0.8em;
 	}
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 640px){
 	.footbar{
 		font-size: 0.6em;
 	}
