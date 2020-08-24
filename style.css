@@ -5,6 +5,7 @@
 	color: #39ff14;
 	font-family: monaco, Consolas, Lucida Console, monospace;
 	letter-spacing: 2px;
+	-webkit-overflow-scrolling: touch;
 }
 html{
 	position: relative;
