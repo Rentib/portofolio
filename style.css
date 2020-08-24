@@ -180,7 +180,7 @@ section{
 		white-space: nowrap;
 	    border-right: 4px solid white;
 	    box-sizing: border-box;
-	    animation: typing 10s steps(79, end), blink .75s step-end infinite;
+	    animation: typing 7s steps(79, end), blink .75s step-end infinite;
 	}
 }
 @media screen and (max-width: 768px){
