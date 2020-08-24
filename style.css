@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 	color: #39ff14;
 	font-family: monaco, Consolas, Lucida Console, monospace;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	-webkit-overflow-scrolling: touch;
 }
 html{
