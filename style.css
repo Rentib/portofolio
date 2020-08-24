@@ -377,10 +377,10 @@ input[type = submit]{
 }
 @media screen and (max-height: 640px){
 	#sContact{
-		height: max(70vh, 50vw);
+		height: max(70vh, 60vw);
 	}
 	.message{
-		height: 100px;
+		height: 90px;
 	}
 }
 /*------------------------------------------------------------------------------------*/
