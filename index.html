@@ -15,10 +15,10 @@
 		<nav class="navbar">
 			<h3 class = "logo"> Stanisław Bitner </h3>
 			<ul class = "nav-links">
-				<li><a onclick = "getElementById('sHome').scrollIntoView({behavior: 'smooth'});" class = "link">Home();</a></li>
-				<li><a onclick = "getElementById('sAbout').scrollIntoView({behavior: 'smooth'});" class = "link">About();</a></li>
-				<li><a onclick = "getElementById('sProjects').scrollIntoView({behavior: 'smooth'});" class = "link">Projects();</a></li>
-				<li><a onclick = "getElementById('sContact').scrollIntoView({behavior: 'smooth'});" class = "link">Contact();</a></li>
+				<li><a onclick = "getElementById('sHome').scrollIntoView({behavior: 'smooth'});" class = "link" ontouchend="this.onclick=unhoverTheHover">Home();</a></li>
+				<li><a onclick = "getElementById('sAbout').scrollIntoView({behavior: 'smooth'});" class = "link" ontouchend="this.onclick=unhoverTheHover">About();</a></li>
+				<li><a onclick = "getElementById('sProjects').scrollIntoView({behavior: 'smooth'});" class = "link" ontouchend="this.onclick=unhoverTheHover">Projects();</a></li>
+				<li><a onclick = "getElementById('sContact').scrollIntoView({behavior: 'smooth'});" class = "link" ontouchend="this.onclick=unhoverTheHover">Contact();</a></li>
 			</ul>
 			<div class = "burger">
 				<div class = "line1"></div>
@@ -60,7 +60,7 @@
 			</form>	
 		</div>
 	</section>
-	<div class = "topButton">
+	<div class = "topButton" ontouchend="this.onclick=unhoverTheHover">
 		<span class="iconify" data-icon="uil-angle-up" data-inline="false"></span>
 	</div>
 	<footer class = "footbar">
