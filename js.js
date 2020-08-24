@@ -38,7 +38,6 @@ const navSlide = () => {
 navSlide();
 /*------------------------------------------------------------------------------------------------------*/
 const topButton = () => {
-	var k = 0;
 	const btn = document.querySelector(".topButton");
   	btn.addEventListener('click', () => window.scrollTo({
     	top: 0,
@@ -46,4 +45,12 @@ const topButton = () => {
   	}));
 }
 topButton();
+/*------------------------------------------------------------------------------------------------------*/
+function unhoverTheHover(){
+    var el = this;
+    var par = el.parentNode;
+    var next = el.nextSibling;
+    par.removeChild(el);
+    setTimeout(function(){par.insertBefore(el, next);}, 0)
+}
 /*------------------------------------------------------------------------------------------------------*/
