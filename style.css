@@ -253,6 +253,24 @@ section{
 	align-items: center;
 	justify-content: center;
 }
+#sProjects h1{
+	font-size: 1.5em;
+}
+@media screen and (max-width: 1024px){
+	#sProjects h1{
+		font-size: 1.3em;
+	}
+}
+@media screen and (max-width: 768px){
+	#sProjects h1{
+		font-size: 1.2em;
+	}
+}
+@media screen and (max-width: 640px){
+	#sProjects h1{
+		font-size: 1.1em;
+	}
+}
 /*------------------------------------------------------------------------------------*/
 /*sContact*/
 #sContact{
