@@ -304,9 +304,11 @@ input[type = submit]{
 	background: none;
 	border: 1px solid #39ff14;
 }
-input[type = submit]:hover{
-	-webkit-animation: neonborder 1.5s linear infinite alternate;
-	-webkit-animation: neon 1.5s linear infinite alternate;
+@media (hover: hover){
+	input[type = submit]:hover{
+		-webkit-animation: neonborder 1.5s linear infinite alternate;
+		-webkit-animation: neon 1.5s linear infinite alternate;
+	}
 }
 @media screen and (max-width: 1024px){
 	.message{
@@ -344,8 +346,10 @@ input[type = submit]:hover{
 	transition: .2s;
 	cursor: pointer;
 }
-.topButton:hover{
-	-webkit-animation: neonborder 1.5s linear infinite alternate;
+@media (hover: hover){
+	.topButton:hover{
+		-webkit-animation: neonborder 1.5s linear infinite alternate;
+	}
 }
 @media screen and (max-width: 1024px){
 	.topButton{
